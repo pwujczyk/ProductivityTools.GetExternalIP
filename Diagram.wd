@@ -4,5 +4,6 @@ actor Module
 actor "http://ifconfig.me/ip" as service
 
 Module -> service : Web Request
+service -> Module : IP Address
 
 @enduml
