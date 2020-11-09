@@ -1,7 +1,7 @@
 <!--Category:Powershell--> 
  <p align="right">
     <a href="https://www.powershellgallery.com/packages/ProductivityTools.PSGetExternalIP/"><img src="Images/Header/Powershell_border_40px.png" /></a>
-    <a href="http://productivitytools.tech/get-datename/"><img src="Images/Header/ProductivityTools_green_40px_2.png" /><a> 
+    <a href="http://productivitytools.tech/get-externalip/"><img src="Images/Header/ProductivityTools_green_40px_2.png" /><a> 
     <a href="https://github.com/pwujczyk/ProductivityTools.PSGetExternalIP"><img src="Images/Header/Github_border_40px.png" /></a>
 </p>
 <p align="center">
@@ -18,5 +18,13 @@ The module returns the external IP address of the requesting computer.
  It performs a call to http://ifconfig.me/ip and returns data.
  
  <!--og-image-->
- ![Example](Images/Diagram.png)
+ ![Diagram](Images/Diagram.png)
+
+ Usage:
+
+ ```Powershell
+ Get-ExternalIP
+ ```
+
+ ![Example](Images/Example.png)
 
