@@ -1,6 +1,6 @@
 <#
 	My Function
 #>
-function Get-Function {
+function Get-ExternalIP {
 
 }
