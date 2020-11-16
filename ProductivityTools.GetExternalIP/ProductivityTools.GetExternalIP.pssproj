@@ -28,8 +28,8 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="ProductivityTools.PSGetExternalIP.psd1" />
-    <Compile Include="ProductivityTools.PSGetExternalIP.psm1" />
+    <Compile Include="ProductivityTools.GetExternalIP.psd1" />
+    <Compile Include="ProductivityTools.GetExternalIP.psm1" />
     <Compile Include="Runner.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
